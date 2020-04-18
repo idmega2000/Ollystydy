@@ -1,0 +1,39 @@
+{
+  "name": "ollystydy",
+  "version": "1.0.0",
+  "description": "an online study application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node src/index.js",
+    "dev": "node_modules/nodemon/bin/nodemon.js --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idmega2000/Ollystydy.git"
+  },
+  "author": "idmega2000@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idmega2000/Ollystydy/issues"
+  },
+  "homepage": "https://github.com/idmega2000/Ollystydy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "pg": "^8.0.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.6",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "nodemon": "^2.0.3"
+  }
+}
